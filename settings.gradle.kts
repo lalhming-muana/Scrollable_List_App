@@ -15,4 +15,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "Scrollable_List_App"
 include(":app")
+include(":app")
  
