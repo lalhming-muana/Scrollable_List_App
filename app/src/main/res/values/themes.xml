@@ -2,4 +2,6 @@
 <resources>
 
     <style name="Theme.Scrollable_List_App" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.Scollable_list_app" parent="android:Theme.Material.Light.NoActionBar" />
 </resources>

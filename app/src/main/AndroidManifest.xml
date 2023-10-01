@@ -16,7 +16,7 @@
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme.Scrollable_List_App">
+            android:theme="@style/Theme.Scollable_list_app">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
