@@ -28,8 +28,8 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.example.data.DataSource
-import com.example.model.Topic
+import com.example.scollable_list_app.data.DataSource
+import com.example.scollable_list_app.model.Topic
 import com.example.scollable_list_app.ui.theme.Scollable_list_appTheme
 import com.example.scrollable_list_app.R
 
@@ -97,7 +97,7 @@ fun TopicCard(topic: Topic, modifier: Modifier = Modifier ){
 }
 
 @Composable
-fun TopicList( topicList: List<Topic>,modifier: Modifier = Modifier){
+fun TopicList(topicList: List<Topic>, modifier: Modifier = Modifier){
     LazyVerticalGrid(modifier = modifier,
         columns = GridCells.Fixed(2),
         verticalArrangement = Arrangement.spacedBy(dimensionResource(R.dimen.padding_small)),

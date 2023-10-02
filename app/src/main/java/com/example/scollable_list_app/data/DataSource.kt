@@ -1,6 +1,6 @@
-package com.example.data
+package com.example.scollable_list_app.data
 
-import com.example.model.Topic
+import com.example.scollable_list_app.model.Topic
 import com.example.scrollable_list_app.R
 
 
