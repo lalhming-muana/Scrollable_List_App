@@ -43,7 +43,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    TopicList(DataSource.topics)
+                    TopicList(DataSource.topics, modifier = Modifier.padding(dimensionResource(R.dimen.padding_small)))
                 }
             }
         }
@@ -115,14 +115,7 @@ fun TopicList( topicList: List<Topic>,modifier: Modifier = Modifier){
 @Composable
 fun TopicPreview() {
     Scollable_list_appTheme {
-        val topic = Topic(R.string.photography, 321, R.drawable.photography)
-        Column(
-            modifier = Modifier.fillMaxSize(),
-            verticalArrangement = Arrangement.Center,
-            horizontalAlignment = Alignment.CenterHorizontally
-        ) {
-            TopicCard(topic = topic)
-        }
+        TopicList(DataSource.topics, modifier = Modifier.padding(dimensionResource(R.dimen.padding_small)))
     }
 }
 
